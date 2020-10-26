@@ -1,0 +1,8 @@
+[COMPILESTATUS|.\..\..\Verilog_Files\top.v]
+FileTimeLow=30845899
+Status=Warning
+[COMPILESTATUS|.\..\..\Verilog_Files\OneSecondPeriodPulse.v]
+FileTimeLow=30845899
+Status=Compiled
+[Gui config]
+RunFor=100 ns

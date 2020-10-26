@@ -1,0 +1,16 @@
+# Adding file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v ... Done
+# Adding file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v ... Done
+alog -O2 -sve -msg 5 -sv2k12 -work Gilead $dsn/../../Verilog_Files/top.v $dsn/../../Verilog_Files/OneSecondPeriodPulse.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2876 ../../../Verilog_Files/top.v : (6, 15): Implicit net declaration, symbol USBPU has not been declared in module top.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 ../../../Verilog_Files/top.v : (8, 1): Some unconnected ports remain at instance: OneSecondPeriodPulseInstance. Module OneSecondPeriodPulse has unconnected  port(s) : clk, rst.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: top.
+# $root top modules: top.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# Error:  You do not have a valid license to run Advanced Dataflow. Contact Aldec for ordering information sales@aldec.com

@@ -1,0 +1,18 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Oct 26 2020 14:31:18
+
+# Family & Device:    iCE40LP8K
+
+# Package:            CM81
+
+# ##############################################################################
+
+###IOSet List 2
+set_io timer_out H2
+set_io userInput J1
+set_io clk B2

@@ -1,0 +1,3 @@
+INPUT  userInput 	 location (3, 0, 1) 	 J1 	 
+OUTPUT timer_out 	 location (0, 3, 0) 	 H2 	 
+INPUT  clk 	 location (0, 30, 0) 	 B2 	 

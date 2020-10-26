@@ -1,0 +1,64 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP8KCM81 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top:	21 (25.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       34                 100 %                
+CARRYS     18                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top:	52 (64.20 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     4                  100 %                
+=================================================
+Total IO PADS in the block top:	4 (4.94 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   OneSecondPeriodPulse   ########
+Instance path:   top.OneSecondPeriodPulse                                 
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.OneSecondPeriodPulse:	21 (25.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       34                 100 %                
+CARRYS     18                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top.OneSecondPeriodPulse:	52 (64.20 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  25 %                 
+=================================================
+Total IO PADS in the block top.OneSecondPeriodPulse:	1 (1.23 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

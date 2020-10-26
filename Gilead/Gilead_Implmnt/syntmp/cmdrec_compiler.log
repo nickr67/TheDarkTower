@@ -1,0 +1,9 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\synwork\Gilead_comp.srs  -hdllog  C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\synlog\Gilead_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\  -I C:\lscc\iCEcube2.2017.08\synpbase\lib   -v2001  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v -lib work C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v 
+rc:0 success:1 runtime:1
+file:C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\synwork\Gilead_comp.srs|io:o|time:1603745688|size:2631|exec:0
+file:C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\synlog\Gilead_compiler.srr|io:o|time:1603745688|size:4338|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1603491669|size:224837|exec:0
+file:C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v|io:i|time:1603745685|size:253|exec:0
+file:C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v|io:i|time:1603745634|size:605|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\c_hdl.exe|io:i|time:1603491666|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe|io:i|time:1603491667|size:1754112|exec:1

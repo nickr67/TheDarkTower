@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2017.08\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2017.08\synpbase
+Hostname:    DESKTOP-4A2JFF6
+Date:        Mon Oct 26 15:54:26 2020
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Gilead_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\Gilead.srr"
+Running: Gilead_Implmnt in foreground
+
+Running Gilead_syn|Gilead_Implmnt
+
+Running: compile (Compile) on Gilead_syn|Gilead_Implmnt
+# Mon Oct 26 15:54:26 2020
+
+Running: compile_flow (Compile Process) on Gilead_syn|Gilead_Implmnt
+# Mon Oct 26 15:54:26 2020
+
+Running: compiler (Compile Input) on Gilead_syn|Gilead_Implmnt
+# Mon Oct 26 15:54:26 2020
+compiler exited with errors
+Job failed on: Gilead_syn|Gilead_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\synlog\Gilead_compiler.srr"
+# Mon Oct 26 15:54:26 2020
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on Gilead_syn|Gilead_Implmnt
+Complete: Compile on Gilead_syn|Gilead_Implmnt
+Complete: Logic Synthesis on Gilead_syn|Gilead_Implmnt
+
+exit status=2
+
+exit status=2
+
