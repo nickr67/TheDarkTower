@@ -1,6 +1,0 @@
-[VIC]
-OneSecondPeriodPulseInstance.out5lt8_0_cascade_=ltout:in0
-OneSecondPeriodPulseInstance.out5lto7_4_cascade_=ltout:in0
-OneSecondPeriodPulseInstance.out_RNOZ0Z_2_cascade_=ltout:in3
-OneSecondPeriodPulseInstance.out_r_1_0_cascade_=ltout:in2
-OneSecondPeriodPulseInstance.out_r_1_cascade_=ltout:in0

@@ -1,11 +1,12 @@
 
-module top (timer_out, userInput, clk);
+module top (clk_sr, rst, data_in, data_out);
 
-output timer_out;
-input userInput;
-input clk;
+output data_out;
+input data_in;
+input clk_sr;
+input rst;
 
 assign USBPU = 1'b0;
 
-OneSecondPeriodPulse OneSecondPeriodPulseInstance (.out(timer_out), .rst(userInput), .clk(clk));
+ShiftRegister ShiftRegisterInstance (.data_out(data_out), .rst(rst), .clk_sr(clk_sr), .data_in(data_in));
 endmodule // OneSecondPeriodPulse

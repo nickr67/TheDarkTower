@@ -2,8 +2,9 @@
 #-- Project file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_syn.prj
 #project files
 
+add_file -verilog -lib work "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/OneSecondPeriodPulse.v" 
+add_file -verilog -lib work "Verilog_Files/ShiftRegister.v" 
 add_file -verilog -lib work "Verilog_Files/top.v" 
-add_file -verilog -lib work "Verilog_Files/OneSecondPeriodPulse.v" 
 #implementation: "Gilead_Implmnt"
 impl -add Gilead_Implmnt -type fpga
 

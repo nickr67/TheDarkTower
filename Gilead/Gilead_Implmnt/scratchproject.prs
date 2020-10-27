@@ -3,8 +3,9 @@
 #--  Project file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/top.v"
 add_file -verilog "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/OneSecondPeriodPulse.v"
+add_file -verilog "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/ShiftRegister.v"
+add_file -verilog "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/top.v"
 
 
 

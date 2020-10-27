@@ -1,12 +1,13 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\run_options.txt
-#--  Written on Mon Oct 26 15:54:48 2020
+#--  Written on Mon Oct 26 19:21:57 2020
 
 
 #project files
+add_file -verilog "C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Verilog_Files/OneSecondPeriodPulse.v"
+add_file -verilog "Verilog_Files/ShiftRegister.v"
 add_file -verilog "Verilog_Files/top.v"
-add_file -verilog "Verilog_Files/OneSecondPeriodPulse.v"
 
 
 

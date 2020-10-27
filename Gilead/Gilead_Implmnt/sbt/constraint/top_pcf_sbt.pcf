@@ -13,6 +13,8 @@
 # ##############################################################################
 
 ###IOSet List 2
-set_io timer_out H2
-set_io userInput J1
-set_io clk B2
+set_io data_out   H2
+set_io rst        J1
+set_io data_in    H1
+set_io clk_sr     G2
+set_io clk        B2
