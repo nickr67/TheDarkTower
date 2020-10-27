@@ -1,1 +1,1 @@
-CKID0001:@|S:clk_ibuf_gb_io@|E:OneSecondPeriodPulseInstance.out@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:clk_sr_ibuf_gb_io@|E:ShiftRegisterInstance.data[7]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 

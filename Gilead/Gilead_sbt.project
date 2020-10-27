@@ -32,7 +32,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Bui
 ProjectName=Gilead
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=Verilog_Files/top.v=work,Verilog_Files/OneSecondPeriodPulse.v
+ProjectVFiles=Verilog_Files/top.v=work,Verilog_Files/ShiftRegister.v
 ProjectCFiles=
 CurImplementation=Gilead_Implmnt
 Implementations=Gilead_Implmnt

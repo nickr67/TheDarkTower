@@ -1,0 +1,23 @@
+set_location rst_ibuf_RNIUUM5 3 1 4 # SB_LUT4 (LogicCell: rst_ibuf_RNIUUM5_LC_0)
+set_location ShiftRegisterInstance.data_0_THRU_LUT4_0 3 2 5 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[0]_LC_1)
+set_location ShiftRegisterInstance.data[0] 3 2 5 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[0]_LC_1)
+set_location ShiftRegisterInstance.data_1_THRU_LUT4_0 3 2 0 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[1]_LC_2)
+set_location ShiftRegisterInstance.data[1] 3 2 0 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[1]_LC_2)
+set_location ShiftRegisterInstance.data_2_THRU_LUT4_0 2 2 3 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[2]_LC_3)
+set_location ShiftRegisterInstance.data[2] 2 2 3 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[2]_LC_3)
+set_location ShiftRegisterInstance.data_3_THRU_LUT4_0 2 2 4 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[3]_LC_4)
+set_location ShiftRegisterInstance.data[3] 2 2 4 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[3]_LC_4)
+set_location ShiftRegisterInstance.data_4_THRU_LUT4_0 2 2 1 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[4]_LC_5)
+set_location ShiftRegisterInstance.data[4] 2 2 1 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[4]_LC_5)
+set_location ShiftRegisterInstance.data_5_THRU_LUT4_0 2 2 7 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[5]_LC_6)
+set_location ShiftRegisterInstance.data[5] 2 2 7 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[5]_LC_6)
+set_location ShiftRegisterInstance.data_6_THRU_LUT4_0 2 2 6 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[6]_LC_7)
+set_location ShiftRegisterInstance.data[6] 2 2 6 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[6]_LC_7)
+set_location ShiftRegisterInstance.data_7_THRU_LUT4_0 2 2 2 # SB_LUT4 (LogicCell: ShiftRegisterInstance.data[7]_LC_8)
+set_location ShiftRegisterInstance.data[7] 2 2 2 # SB_DFFSR (LogicCell: ShiftRegisterInstance.data[7]_LC_8)
+set_location GND -1 -1 -1 # GND
+set_io data_in_ibuf 3 0 0 # ICE_IO
+set_io data_out_obuf 0 3 0 # ICE_IO
+set_io rst_ibuf 3 0 1 # ICE_IO
+set_io clk_sr_ibuf_gb_io 0 3 1 # ICE_IO
+set_io clk_sr_ibuf_gb_io_gb 0 17 0 # ICE_GB

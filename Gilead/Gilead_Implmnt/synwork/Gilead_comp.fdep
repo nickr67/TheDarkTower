@@ -5,10 +5,10 @@
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\umr_capim.v":1603491670
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_objects.v":1603491670
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603491670
-#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\top.v":1603745685
-#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\OneSecondPeriodPulse.v":1603745634
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\top.v":1603758027
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\ShiftRegister.v":1603759018
 0			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v" verilog
-1			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v" verilog
+1			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v" verilog
 #Dependency Lists(Uses List)
 0 1
 1 -1
@@ -17,4 +17,4 @@
 1 0
 #Design Unit to File Association
 module work top 0
-module work OneSecondPeriodPulse 1
+module work ShiftRegister 1

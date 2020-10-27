@@ -1,2 +1,2 @@
-@E: Can't open file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v
+@E: CS179 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v":34:7:34:11|Assignment target data0 must be a net type
 

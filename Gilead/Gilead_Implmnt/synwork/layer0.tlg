@@ -1,11 +1,5 @@
 Selecting top level module top
-@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":2:7:2:26|Synthesizing module OneSecondPeriodPulse in library work.
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v":2:7:2:19|Synthesizing module ShiftRegister in library work.
 
 @N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v":2:7:2:9|Synthesizing module top in library work.
 
-@N: CL189 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Register bit count[20] is always 0.
-@N: CL189 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Register bit count[21] is always 0.
-@N: CL189 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Register bit count[22] is always 0.
-@N: CL189 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Register bit count[23] is always 0.
-@N: CL189 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Register bit count[24] is always 0.
-@W: CL279 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Pruning register bits 24 to 20 of count[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.

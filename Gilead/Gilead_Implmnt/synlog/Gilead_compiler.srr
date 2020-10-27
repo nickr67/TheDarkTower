@@ -11,13 +11,44 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@E: Can't open file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v
+@I::"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v" (library work)
+@I::"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v" (library work)
+Verilog syntax check successful!
+File C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v":2:7:2:19|Synthesizing module ShiftRegister in library work.
+
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v":2:7:2:9|Synthesizing module top in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 26 19:21:57 2020
+
+Process completed successfully.
+# Mon Oct 26 19:37:06 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v":2:7:2:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v":2:7:2:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 26 19:37:06 2020
 
 ###########################################################]
 @END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 26 19:21:57 2020
+
+Process completed successfully.
+# Mon Oct 26 19:37:06 2020
 
 ###########################################################]

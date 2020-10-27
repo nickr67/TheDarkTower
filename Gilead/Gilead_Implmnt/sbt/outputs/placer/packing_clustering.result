@@ -1,0 +1,11 @@
+ble_pack rst_ibuf_RNIUUM5_LC_0 {rst_ibuf_RNIUUM5}
+ble_pack ShiftRegisterInstance.data[0]_LC_1 {ShiftRegisterInstance.data[0], ShiftRegisterInstance.data_0_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[1]_LC_2 {ShiftRegisterInstance.data[1], ShiftRegisterInstance.data_1_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[2]_LC_3 {ShiftRegisterInstance.data[2], ShiftRegisterInstance.data_2_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[3]_LC_4 {ShiftRegisterInstance.data[3], ShiftRegisterInstance.data_3_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[4]_LC_5 {ShiftRegisterInstance.data[4], ShiftRegisterInstance.data_4_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[5]_LC_6 {ShiftRegisterInstance.data[5], ShiftRegisterInstance.data_5_THRU_LUT4_0}
+ble_pack ShiftRegisterInstance.data[6]_LC_7 {ShiftRegisterInstance.data[6], ShiftRegisterInstance.data_6_THRU_LUT4_0}
+clb_pack PLB_0 {rst_ibuf_RNIUUM5_LC_0, ShiftRegisterInstance.data[0]_LC_1, ShiftRegisterInstance.data[1]_LC_2, ShiftRegisterInstance.data[2]_LC_3, ShiftRegisterInstance.data[3]_LC_4, ShiftRegisterInstance.data[4]_LC_5, ShiftRegisterInstance.data[5]_LC_6, ShiftRegisterInstance.data[6]_LC_7}
+ble_pack ShiftRegisterInstance.data[7]_LC_8 {ShiftRegisterInstance.data[7], ShiftRegisterInstance.data_7_THRU_LUT4_0}
+clb_pack PLB_1 {ShiftRegisterInstance.data[7]_LC_8}

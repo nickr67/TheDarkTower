@@ -9,18 +9,17 @@ Part:			ICE40LP8KCM81 (Lattice)
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     21                 100 %                
+FLOPS     8                  100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top:	21 (25.93 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top:	8 (47.06 % Utilization)
 
 
 COMBINATIONAL LOGIC
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-LUTS       34                 100 %                
-CARRYS     18                 100 %                
-===================================================
-Total COMBINATIONAL LOGIC in the block top:	52 (64.20 % Utilization)
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block top:	1 (5.88 % Utilization)
 
 
 IO PADS
@@ -28,36 +27,19 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 PADS     4                  100 %                
 =================================================
-Total IO PADS in the block top:	4 (4.94 % Utilization)
+Total IO PADS in the block top:	4 (23.53 % Utilization)
 
---------------------------------------------------------------------------
-########   Utilization report for  cell:   OneSecondPeriodPulse   ########
-Instance path:   top.OneSecondPeriodPulse                                 
-==========================================================================
+-------------------------------------------------------------------
+########   Utilization report for  cell:   ShiftRegister   ########
+Instance path:   top.ShiftRegister                                 
+===================================================================
 
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     21                 100 %                
+FLOPS     8                  100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block top.OneSecondPeriodPulse:	21 (25.93 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-LUTS       34                 100 %                
-CARRYS     18                 100 %                
-===================================================
-Total COMBINATIONAL LOGIC in the block top.OneSecondPeriodPulse:	52 (64.20 % Utilization)
-
-
-IO PADS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-PADS     1                  25 %                 
-=================================================
-Total IO PADS in the block top.OneSecondPeriodPulse:	1 (1.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top.ShiftRegister:	8 (47.06 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
