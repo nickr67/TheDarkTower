@@ -1,0 +1,5 @@
+OUTPUT SHIFT_CLK 	 location (33, 2, 0) 	 H9 	 
+INPUT  RESET 	 location (0, 20, 0) 	 E1 	 
+OUTPUT LATCH_CLK 	 location (33, 6, 0) 	 D9 	 
+INPUT  CLOCK_16 	 location (0, 30, 0) 	 B2 	 
+INPUT  BUTTON 	 location (0, 3, 1) 	 G2 	 

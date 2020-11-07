@@ -1,12 +1,12 @@
-@P:  Worst Slack : -0.528
-@P:  top|clk_sr - Estimated Frequency : 284.2 MHz
-@P:  top|clk_sr - Requested Frequency : 334.3 MHz
-@P:  top|clk_sr - Estimated Period : 3.519
-@P:  top|clk_sr - Requested Period : 2.991
-@P:  top|clk_sr - Slack : -0.528
-@P: top Part : ice40lp8kcm81
-@P: top I/O primitives : 4
-@P: top I/O Register bits : 0
-@P: top Register bits (Non I/O) : 8 (0%)
-@P: top Total Luts : 1 (0%)
+@P:  Worst Slack : -1.002
+@P:  DarkTower|CLOCK_16 - Estimated Frequency : 149.7 MHz
+@P:  DarkTower|CLOCK_16 - Requested Frequency : 176.2 MHz
+@P:  DarkTower|CLOCK_16 - Estimated Period : 6.679
+@P:  DarkTower|CLOCK_16 - Requested Period : 5.677
+@P:  DarkTower|CLOCK_16 - Slack : -1.002
+@P: DarkTower Part : ice40lp8kcm81
+@P: DarkTower I/O primitives : 5
+@P: DarkTower I/O Register bits : 0
+@P: DarkTower Register bits (Non I/O) : 16 (0%)
+@P: DarkTower Total Luts : 23 (0%)
 @P:  CPU Time : 0h:00m:00s

@@ -1,0 +1,134 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP8KCM81 (Lattice)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   DarkTower   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     16                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DarkTower:	16 (28.57 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     23                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block DarkTower:	23 (41.07 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     5                  100 %                
+=================================================
+Total IO PADS in the block DarkTower:	5 (8.93 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   shiftRegisterClk   ########
+Instance path:   DarkTower.shiftRegisterClk                           
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     16                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block DarkTower.shiftRegisterClk:	16 (28.57 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     22                 95.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block DarkTower.shiftRegisterClk:	22 (39.29 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   feedBackCounter   ########
+Instance path:   shiftRegisterClk.feedBackCounter                    
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  31.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block shiftRegisterClk.feedBackCounter:	5 (8.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  30.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block shiftRegisterClk.feedBackCounter:	7 (12.50 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   feedBackRegister   ########
+Instance path:   shiftRegisterClk.feedBackRegister                    
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  6.25 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block shiftRegisterClk.feedBackRegister:	1 (1.79 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  4.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block shiftRegisterClk.feedBackRegister:	1 (1.79 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   shiftClkGenerator   ########
+Instance path:   shiftRegisterClk.shiftClkGenerator                    
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  25 %                 
+==================================================
+Total SEQUENTIAL ELEMENTS in the block shiftRegisterClk.shiftClkGenerator:	4 (7.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  21.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block shiftRegisterClk.shiftClkGenerator:	5 (8.93 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   shiftRegisterLatchClk   ########
+Instance path:   shiftRegisterClk.shiftRegisterLatchClk                    
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     6                  37.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block shiftRegisterClk.shiftRegisterLatchClk:	6 (10.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  39.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block shiftRegisterClk.shiftRegisterLatchClk:	9 (16.07 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

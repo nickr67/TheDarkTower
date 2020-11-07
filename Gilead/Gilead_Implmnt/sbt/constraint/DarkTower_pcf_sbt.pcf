@@ -1,0 +1,33 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Oct 26 2020 14:31:18
+
+# Family & Device:    iCE40LP8K
+
+# Package:            CM81
+
+# ##############################################################################
+
+###IOSet List 2
+set_io  CLOCK_16   B2
+set_io  RESET      E1
+set_io  BUTTON     G2
+set_io  LED_RED    H1
+set_io  LED_GREEN  J1
+set_io  LED_BLUE   H2
+
+set_io  DATA_OUT   D8
+set_io  LATCH_CLK  D9
+set_io  SHIFT_CLK  H9
+
+set_io  testLed0   A6
+set_io  testLed1   B6
+set_io  testLed2   A7
+set_io  testLed3   B7
+set_io  testLed4   A8
+set_io  testLed5   B8
+set_io  testLed6   A9

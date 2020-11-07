@@ -1,0 +1,45 @@
+set_location shiftRegisterClkInstance.feedRegisterInstance.dataOut 5 9 4 #SB_DFF
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter_RNO[1] 5 9 2 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter_RNO[3] 6 9 3 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.shiftClk 5 9 3 #SB_DFF
+set_location shiftRegisterClkInstance.feedBackCounterInstance.feedBackOut 5 10 6 #SB_DFFSS
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter[1] 5 10 2 #SB_DFFSR
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter_RNO[1] 6 9 2 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.shiftClk_RNO 5 9 3 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter[2] 5 10 4 #SB_DFFSR
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO[0] 6 10 3 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter[3] 6 10 1 #SB_DFFER
+set_location RESET_ibuf_RNI8T16 6 10 6 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter_RNO_0[1] 5 9 7 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter_RNO[0] 5 10 1 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter[1] 6 9 2 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter[0] 5 9 1 #SB_DFF
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO[2] 6 10 2 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO_0[3] 6 10 0 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter[1] 6 10 4 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter[3] 6 9 3 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter[1] 5 9 2 #SB_DFF
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO[3] 6 10 1 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter_RNO[0] 5 9 1 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.feedBackOut_RNI5CJ3 5 10 5 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter_RNO[2] 6 9 0 #SB_LUT4
+set_location shiftRegisterClkInstance.feedRegisterInstance.dataOut_RNO 5 9 4 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.counter_RNO[2] 5 10 4 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter_RNO[0] 6 9 1 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter[2] 6 10 2 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter_RNO[1] 5 10 2 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter_RNO_0[0] 5 10 0 #SB_LUT4
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter[0] 6 9 1 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter[0] 5 10 1 #SB_DFFSR
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter_RNO_0[3] 6 10 7 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location shiftRegisterClkInstance.feedBackCounterInstance.feedBackOut_RNO 5 10 6 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO[1] 6 10 4 #SB_LUT4
+set_location shiftRegisterClkInstance.feedBackCounterInstance.counter[0] 6 10 3 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftRegisterLatchClkinstance.counter[2] 6 9 0 #SB_DFFER
+set_location shiftRegisterClkInstance.shiftClkGeneratorInstance.shiftClk_RNIS42N 5 9 6 #SB_LUT4
+set_io SHIFT_CLK H9
+set_io RESET E1
+set_io LATCH_CLK D9
+set_io CLOCK_16 B2
+set_io BUTTON G2

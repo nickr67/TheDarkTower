@@ -6,13 +6,13 @@ DevicePower=
 NetlistFile=Gilead_Implmnt/Gilead.edf
 AdditionalEDIFFile=
 IPEDIFFile=
-DesignLib=Gilead_Implmnt/sbt/netlist/oadb-top
+DesignLib=Gilead_Implmnt/sbt/netlist/oadb-DarkTower
 DesignView=_rt
-DesignCell=top
+DesignCell=DarkTower
 SynthesisSDCFile=Gilead_Implmnt/Gilead.scf
 UserPinConstraintFile=
 UserSDCFile=
-PhysicalConstraintFile=Gilead_Implmnt/sbt/constraint/top_pcf_sbt.pcf
+PhysicalConstraintFile=Gilead_Implmnt/sbt/constraint/DarkTower_pcf_sbt.pcf
 BackendImplPathName=
 Devicevoltage=1.14
 DevicevoltagePerformance=+/-5%(datasheet default)
@@ -32,7 +32,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Bui
 ProjectName=Gilead
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=Verilog_Files/top.v=work,Verilog_Files/ShiftRegister.v
+ProjectVFiles=Verilog_Files/DarkTower.v=work,Verilog_Files/feedBackCounter.v=work,Verilog_Files/shiftClkGenerator.v=work,Verilog_Files/shiftRegisterClk.v=work,Verilog_Files/feedBackRegister.v=work,Verilog_Files/shiftRegisterLatchClk.v
 ProjectCFiles=
 CurImplementation=Gilead_Implmnt
 Implementations=Gilead_Implmnt

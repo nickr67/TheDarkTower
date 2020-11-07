@@ -1,0 +1,4 @@
+11:33:09 AM
+Active-HDL command:
+ design create -a sikdg {C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\aldec}; design open -a {C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/aldec/sikdg}; addfile {C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v} {C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\counter25bit.v};designverlibrarysim -L ovi_ice ice 
+11:37:30 AM

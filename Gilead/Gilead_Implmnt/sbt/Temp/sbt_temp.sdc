@@ -1,3 +1,3 @@
 ####---- CreateClock list ----1
-create_clock  -period 2.99 -waveform {0.00 1.50} -name {top|clk_sr} [get_ports {clk_sr}] 
+create_clock  -period 5.68 -waveform {0.00 2.84} -name {DarkTower|CLOCK_16} [get_ports {CLOCK_16}] 
 

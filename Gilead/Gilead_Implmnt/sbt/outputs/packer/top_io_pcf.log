@@ -1,4 +1,0 @@
-INPUT  rst 	 location (3, 0, 1) 	 J1 	 
-OUTPUT data_out 	 location (0, 3, 0) 	 H2 	 
-INPUT  data_in 	 location (3, 0, 0) 	 H1 	 
-INPUT  clk_sr 	 location (0, 3, 1) 	 G2 	 

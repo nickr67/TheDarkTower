@@ -1,2 +1,4 @@
-@W: CL279 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\OneSecondPeriodPulse.v":15:0:15:5|Pruning register bits 24 to 20 of count[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG1160 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterLatchClk.v":15:34:15:42|Found complex event expression
+@W: CG360 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v":27:5:27:10|Removing wire local0, as there is no assignment to it.
+@W: CG360 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v":27:13:27:18|Removing wire local1, as there is no assignment to it.
 

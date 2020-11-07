@@ -1,12 +1,16 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Gilead_Implmnt\run_options.txt
-#--  Written on Mon Oct 26 19:37:05 2020
+#--  Written on Sat Nov 07 12:14:28 2020
 
 
 #project files
-add_file -verilog "Verilog_Files/top.v"
-add_file -verilog "Verilog_Files/ShiftRegister.v"
+add_file -verilog "Verilog_Files/DarkTower.v"
+add_file -verilog "Verilog_Files/feedBackCounter.v"
+add_file -verilog "Verilog_Files/shiftClkGenerator.v"
+add_file -verilog "Verilog_Files/shiftRegisterClk.v"
+add_file -verilog "Verilog_Files/feedBackRegister.v"
+add_file -verilog "Verilog_Files/shiftRegisterLatchClk.v"
 
 
 

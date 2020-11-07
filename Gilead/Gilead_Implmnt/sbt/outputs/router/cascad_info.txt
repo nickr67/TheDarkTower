@@ -1,0 +1,3 @@
+[VIC]
+shiftRegisterClkInstance.feedBackCounterInstance.counter_RNO_0_0_3_cascade_=ltout:in3
+shiftRegisterClkInstance.shiftRegisterLatchClkinstance.outputCounter_RNO_0Z0Z_0_cascade_=ltout:in1

@@ -1,2 +1,5 @@
-i<>.\..\..\Verilog_Files\top.v
-i<>.\..\..\Verilog_Files\OneSecondPeriodPulse.v
+.\..\..\Verilog_Files\DarkTower.v
+.\..\..\Verilog_Files\shiftRegisterClk.v
+.\..\..\Verilog_Files\shiftClkGenerator.v
+.\..\..\Verilog_Files\feedBackCounter.v
+.\..\..\Verilog_Files\srLatch.v

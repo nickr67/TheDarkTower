@@ -1,22 +1,42 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Gilead_Implmnt\\synwork\\Gilead_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\|-I|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Gilead_Implmnt\\synwork\\Gilead_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\|-I|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\bin64\\c_ver.exe":1603491667
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\generic\\sb_ice40.v":1603491669
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\hypermods.v":1603491670
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\umr_capim.v":1603491670
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_objects.v":1603491670
 #CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603491670
-#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\top.v":1603758027
-#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\ShiftRegister.v":1603759018
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\DarkTower.v":1604772253
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\feedBackCounter.v":1604767291
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\shiftClkGenerator.v":1604721118
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\shiftRegisterClk.v":1604772226
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\feedBackRegister.v":1604761667
+#CUR:"C:\\Users\\Nicky\\Documents\\GitHub\\TheDarkTower\\Gilead\\Verilog_Files\\shiftRegisterLatchClk.v":1604772860
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v" verilog
-1			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v" verilog
+0			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v" verilog
+1			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\feedBackCounter.v" verilog
+2			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftClkGenerator.v" verilog
+3			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterClk.v" verilog
+4			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\feedBackRegister.v" verilog
+5			"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterLatchClk.v" verilog
 #Dependency Lists(Uses List)
-0 1
+0 3
 1 -1
+2 -1
+3 2 1 4 5
+4 -1
+5 -1
 #Dependency Lists(Users Of)
 0 -1
-1 0
+1 3
+2 3
+3 0
+4 3
+5 3
 #Design Unit to File Association
-module work ShiftRegister 1
-module work top 0
+module work shiftRegisterClk 3
+module work DarkTower 0
+module work feedBackCounter 1
+module work shiftClkGenerator 2
+module work feedBackRegister 4
+module work shiftRegisterLatchClk 5

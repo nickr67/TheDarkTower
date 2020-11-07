@@ -1,5 +1,17 @@
-Selecting top level module top
-@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\ShiftRegister.v":2:7:2:19|Synthesizing module ShiftRegister in library work.
+Selecting top level module DarkTower
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftClkGenerator.v":2:7:2:23|Synthesizing module shiftClkGenerator in library work.
 
-@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\top.v":2:7:2:9|Synthesizing module top in library work.
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\feedBackCounter.v":2:7:2:21|Synthesizing module feedBackCounter in library work.
 
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\feedBackRegister.v":2:7:2:22|Synthesizing module feedBackRegister in library work.
+
+@N: CG179 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\feedBackRegister.v":25:23:25:29|Removing redundant assignment.
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterLatchClk.v":2:7:2:27|Synthesizing module shiftRegisterLatchClk in library work.
+
+@W: CG1160 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterLatchClk.v":15:34:15:42|Found complex event expression
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\shiftRegisterClk.v":2:7:2:22|Synthesizing module shiftRegisterClk in library work.
+
+@N: CG364 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v":2:7:2:15|Synthesizing module DarkTower in library work.
+
+@W: CG360 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v":27:5:27:10|Removing wire local0, as there is no assignment to it.
+@W: CG360 :"C:\Users\Nicky\Documents\GitHub\TheDarkTower\Gilead\Verilog_Files\DarkTower.v":27:13:27:18|Removing wire local1, as there is no assignment to it.

@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 11 2017 17:12:22
 
-* File Generated:     Oct 26 2020 19:37:13
+* File Generated:     Nov 7 2020 12:14:34
 
 * Purpose:            
 
@@ -14,12 +14,12 @@
 
 * ******************************************************************************
 
-Executing : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-top --outdir C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P08.dev --package CM81 --deviceMarketName iCE40LP8K --sdc-file C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40LP8K.lib --effort_level std --out-sdc-file C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\outputs\placer\top_pl.sdc
+Executing : C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-DarkTower --outdir C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P08.dev --package CM81 --deviceMarketName iCE40LP8K --sdc-file C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40LP8K.lib --effort_level std --out-sdc-file C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\outputs\placer\DarkTower_pl.sdc
 I2004: Option and Settings Summary
 =============================================================
 Device file          - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P08.dev
 Package              - CM81
-Design database      - C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-top
+Design database      - C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-DarkTower
 SDC file             - C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\Temp/sbt_temp.sdc
 Output directory     - C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\outputs\placer
 Timing library       - C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ice40LP8K.lib
@@ -27,7 +27,7 @@ Effort level         - std
 
 I2050: Starting reading inputs for placer
 =============================================================
-I2100: Reading design library: C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+I2100: Reading design library: C:/Users/Nicky/Documents/GitHub/TheDarkTower/Gilead/Gilead_Implmnt\sbt\netlist\oadb-DarkTower/BFPGA_DESIGN_ep
 I2065: Reading device file : C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P08.dev
 I2051: Reading of inputs for placer completed successfully
 
@@ -35,13 +35,13 @@ I2053: Starting placement of the design
 =============================================================
 
 Input Design Statistics
-    Number of LUTs      	:	1
-    Number of DFFs      	:	8
+    Number of LUTs      	:	23
+    Number of DFFs      	:	16
     Number of DFFs packed to IO	:	0
     Number of Carrys    	:	0
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	3
+    Number of IOs       	:	4
     Number of GBIOs     	:	1
     Number of GBs       	:	0
     Number of WarmBoot  	:	0
@@ -50,10 +50,10 @@ Input Design Statistics
 
 Phase 1
 I2077: Start design legalization
-W2216: SB_GB_IO 'clk_sr_ibuf_gb_io' is assigned to a non-GB pin 'G2'. Replacing it with SB_IO 'clk_sr_ibuf_gb_io' and SB_GB 'clk_sr_ibuf_gb_io_gb'
+W2216: SB_GB_IO 'CLOCK_16_ibuf_gb_io' is assigned to a non-GB pin 'B2'. Replacing it with SB_IO 'CLOCK_16_ibuf_gb_io' and SB_GB 'CLOCK_16_ibuf_gb_io_gb'
 
 Design Legalization Statistics
-    Number of feedthru LUTs inserted to legalize input of DFFs     	:	8
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	0
     Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
     Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
     Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
@@ -62,7 +62,7 @@ Design Legalization Statistics
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
     Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
-    Total LUTs inserted                                            	:	8
+    Total LUTs inserted                                            	:	0
     Total CARRYs inserted                                          	:	0
 
 
@@ -74,26 +74,26 @@ Phase 2
 I2088: Phase 2, elapsed time : 0.0 (sec)
 
 Phase 3
-Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "clk_sr_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
+Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "CLOCK_16_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
 
 Design Statistics after Packing
-    Number of LUTs      	:	9
-    Number of DFFs      	:	8
+    Number of LUTs      	:	23
+    Number of DFFs      	:	16
     Number of DFFs packed to IO	:	0
     Number of Carrys    	:	0
 
 Device Utilization Summary after Packing
     Sequential LogicCells
-        LUT and DFF      	:	8
+        LUT and DFF      	:	16
         LUT, DFF and CARRY	:	0
     Combinational LogicCells
-        Only LUT         	:	1
+        Only LUT         	:	7
         CARRY Only       	:	0
         LUT with CARRY   	:	0
-    LogicCells                  :	9/7680
-    PLBs                        :	2/960
+    LogicCells                  :	23/7680
+    PLBs                        :	4/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	4/63
+    IOs and GBIOs               :	5/63
     PLLs                        :	0/1
 
 
@@ -106,26 +106,26 @@ Phase 5
 I2088: Phase 5, elapsed time : 0.0 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 7.6 (sec)
+I2088: Phase 6, elapsed time : 21.7 (sec)
 
 Final Design Statistics
-    Number of LUTs      	:	9
-    Number of DFFs      	:	8
+    Number of LUTs      	:	23
+    Number of DFFs      	:	16
     Number of DFFs packed to IO	:	0
     Number of Carrys    	:	0
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	4
+    Number of IOs       	:	5
     Number of GBIOs     	:	0
     Number of GBs       	:	1
     Number of WarmBoot  	:	0
     Number of PLLs      	:	0
 
 Device Utilization Summary
-    LogicCells                  :	9/7680
-    PLBs                        :	3/960
+    LogicCells                  :	23/7680
+    PLBs                        :	4/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	4/63
+    IOs and GBIOs               :	5/63
     PLLs                        :	0/1
 
 
@@ -142,7 +142,7 @@ analysis after routing.
                      Clock Summary 
 =====================================================================
 Number of clocks: 1
-Clock: top|clk_sr | Frequency: 491.86 MHz | Target: 334.45 MHz
+Clock: DarkTower|CLOCK_16 | Frequency: 272.53 MHz | Target: 176.06 MHz
 
 =====================================================================
                      End of Clock Summary
@@ -150,5 +150,5 @@ Clock: top|clk_sr | Frequency: 491.86 MHz | Target: 334.45 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 8.2 sec.
+I2076: Placer run-time: 22.4 sec.
 
