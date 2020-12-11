@@ -19,10 +19,10 @@ always @ (negedge clk or negedge !latchClk) begin
     end // if reset
     else if (latchClk) begin
         counter <= 0;
-    end // else if counter[1]
+    end // else if latchClk
     else begin
         counter <= counter + 1;
-    end // else reset counter[1]
+    end // else reset latchClk
 end // always clk
 
 always @ (posedge sysclk) begin

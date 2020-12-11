@@ -25,6 +25,6 @@ always @ (posedge clk) begin
             shiftClk <= 0;
         end // else countEnable
     end // else reset
-end
+end // always
 
 endmodule // shiftClkGenerator

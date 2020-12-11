@@ -32,7 +32,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Bui
 ProjectName=Gilead
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=Verilog_Files/DarkTower.v=work,Verilog_Files/feedBackCounter.v=work,Verilog_Files/shiftClkGenerator.v=work,Verilog_Files/shiftRegisterClk.v=work,Verilog_Files/feedBackRegister.v=work,Verilog_Files/shiftRegisterLatchClk.v
+ProjectVFiles=Verilog_Files/DarkTower.v=work,Verilog_Files/feedBackCounter.v=work,Verilog_Files/shiftClkGenerator.v=work,Verilog_Files/shiftRegisterClk.v=work,Verilog_Files/feedBackRegister.v=work,Verilog_Files/shiftRegisterLatchClk.v=work
 ProjectCFiles=
 CurImplementation=Gilead_Implmnt
 Implementations=Gilead_Implmnt
